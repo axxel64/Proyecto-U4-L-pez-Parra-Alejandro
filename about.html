@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HEALEXX</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/movil.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/responsiveslides.min.js"></script>
+    <script src="assets/js/jquery.tinycarousel.js"></script>
+   <script type="text/javascript">
+    /* carrousel */
+    $(".prev").click(function () {
+    console.log('.prev');
+    });
+    $(".next").click(function () {
+    console.log('.next');
+    });
+    $(document).ready(function()
+		{
+			$('#slider1').tinycarousel();
+		});
+   </script> 
+  </head> 
+<body>
+    <header>
+        <div class="upside">
+          <img
+            class="animate__animated animate__fadeInLeft animate__delay-0s"
+            src="assets/img/logo-home.webp"
+            alt=""
+          />
+          <i
+            id="menu-button"
+            class="fa-solid fa-bars animate__animated animate__fadeInRight animate__delay-0s"
+          ></i>
+        </div>
+        <nav
+          id="contenedor-menu"
+          class="nav-bar animate__animated animate__fadeInRight animate__delay-0s"
+        >
+          <ul>
+            <li><a href="index.html" class="navopt ">HOME</a></li>
+            <li><a href="about.html" class="navopt idx">ABOUT</a></li>
+            <li><a href="gallery.html" class="navopt">GALLERY</a></li>
+          </ul>
+        </nav>
+        <div
+          class="social-media animate__animated animate__fadeInRight animate__delay-0s"
+        >
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </div>
+      </header>
+    
+    <section id="slider1">
+        <a class="buttons prev pbutton" href="#"><i class="fa-solid fa-angle-left"></i></a>
+        <div class="viewport">
+            <ul class="overview">
+                <li class="carrou-slide">
+                    <img src="assets/img/carrou1.jpg" alt="">
+                    <div class="carrou-text animate__animated animate__fadeInUp animate__delay-0s">
+                        <h2 class="carrou-tittle ">STATE-OF-THE-ART-GYM</h2>
+                        <h3 class="carrou-sub">ENJOY THE FIT</h3>
+                        <p class="carrou-des">We value teamwork and mutual assistance above everything else! While our coaches will be gladly helping your fitness growth at individual classes, you'll also always find a fellowmen support, as our group trainings are limited to just 10 people... That is very different to big chain gyms with classes of tens... Our comradeship vibe is what makes training with us even more efficient!
+                        </p>
+                    </div>
+                </li>
+                <li class="carrou-slide">
+                    <img src="assets/img/carrou2.jpg" alt="">
+                    <div class="carrou-text animate__animated animate__fadeInUp animate__delay-0s">
+                        <h2 class="carrou-tittle ">IRONMASS</h2>
+                        <h3 class="carrou-sub">CROSSFIT STUDIO</h3>
+                        <p class="carrou-des">Our facility offers an extensive place for your CrossFit and fitness practice. Across our 20,000 sq/ft gym space you'll surely have more than enough room for maneuvering! We cooperate with leading fitness equipment suppliers from all over the world to give you the superior results you and your body deserve.
+                        </p>
+                    </div>
+                </li>
+                <li class="carrou-slide">
+                    <img src="assets/img/carrou3.jpg" alt="">
+                    <div class="carrou-text animate__animated animate__fadeInUp animate__delay-0s">
+                        <h2 class="carrou-tittle ">MODERN</h2>
+                        <h3 class="carrou-sub">FITNESS EQUIPMENT</h3>
+                        <p class="carrou-des">We cooperate with leading fitness equipment suppliers from all over the world to give you the superior results you and your body deserve.
+                            Our fitness classes have all the equipment necessary to provide a great exercise. For sure we do have traditional cardio equipment as well. That is one of our main focuses because cardiovascular fitness is indeed important.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a class="buttons next nbutton" href="#"><i class="fa-solid fa-angle-right"></i></i></a>
+    </section>
+
+    <section class="parallax">
+        <img src="assets/img/parrallaxfilter.png" alt="">
+        <div class="parallax-text">
+            <h2 class="parllx-tittle">KAYLEIGH IS AN AWARD-WINNING FITNESS COACHMISS
+            </h2>
+            <h3 class="parllx-sub">CROSSFIT TRAINING
+            </h3>
+        </div>
+    </section>
+    <section class="services">
+        <h2 class="servicetitle">World <span>Class Facilities</span></h2>
+        <h3 class="servicessub"> <span>|</span> What We Offer</h3>
+        <div class="services-art">
+            <article class="service">
+                <i class="fa-solid fa-person-biking"></i>
+                <h3 class="serv-title">Cycling & Cardio</h3>
+                <hr>
+                <p class="serv-des">Cycling is a perfect activity to train your heart and muscles simultaneously and effectively.
+                </p>
+            </article>
+            <article class="service">
+                <i class="fa-solid fa-capsules"></i>
+                <h3 class="serv-title">CrossFit</h3>
+                <hr>
+                <p class="serv-des">CrossFit workouts are comprised of constantly varied functional movements at high intensity.
+                </p>
+            </article>
+            <article class="service">
+                <i class="fa-solid fa-weight-hanging"></i>
+                <h3 class="serv-title">Body Pump</h3>
+                <hr>
+                <p class="serv-des">Provides participants with an all-over muscular endurance workout that is set to music.
+                </p>
+            </article>
+            <article class="service">
+                <i class="fa-solid fa-medal"></i>
+                <h3 class="serv-title">Kettlebells</h3>
+                <hr>
+                <p class="serv-des">Competitors attempt to lift as much weight as possible for one repetition in Squat, Bench.
+                </p>
+            </article>
+        </div>
+    </section>
+    <section class="members">
+        <h2 class="servicetitle m">Team <span>Members</span></h2>
+        <h3 class="servicessub m"> <span>|</span> Professional Coaches</h3>
+        <div class="members-container">
+          <article class="member">
+            <img src="assets/img/member1.jpg" alt="">
+            <div class="member-tittles">
+              <h3 class="member-name">Julie Collins</h3>
+              <h4 class="member-job">Fitness Coach</h4>
+              <p class="member-des">I initially took on CrossFit trainings after a spending a lifetime in professional athletics.</p>
+            </div>
+          </article>
+          <article class="member">
+            <img src="assets/img/member2.jpg" alt="">
+            <div class="member-tittles">
+              <h3 class="member-name">Steve Ayokee</h3>
+              <h4 class="member-job">Fitness Coach</h4>
+              <p class="member-des">12 Years ago I lost 80lbs with the help of a personal coach and it completely changed way of life.</p>
+            </div>
+          </article>
+          <article class="member">
+            <img src="assets/img/member3.jpg" alt="">
+            <div class="member-tittles">
+              <h3 class="member-name">Dominica Snyder</h3>
+              <h4 class="member-job">Fitness Coach</h4>
+              <p class="member-des">Growing up, I’ve always been involved in sports, fitness and athleticism in general.</p>
+            </div>
+          </article>
+        </div>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <div class="copyright">
+          <p class="company">Alex</p>
+          <i class="fa-regular fa-copyright"></i>
+          <p>All rights reserved.</p>
+        </div>
+        <div class="social-media">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
